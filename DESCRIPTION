@@ -1,0 +1,14 @@
+Package: Assignment2Question2dankhanhnguyen
+Title: Customer queue simulation
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kate",
+           family = "Nguyen",
+           role = c("aut", "cre"),
+           email = "dankhanh.nguyen@students.mq.edu.au")
+Description: Simulate how customers will go through a first come, first serve queuing system as long as “fate” has already decided when each customer will arrive and their service times.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
