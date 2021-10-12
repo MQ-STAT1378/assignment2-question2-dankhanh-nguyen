@@ -14,8 +14,11 @@ Multiserver(Arrivals, ServiceTimes, NumServers = 1)
 \item{NumServers}{double; This is the server they will be using}
 }
 \value{
-A dataframe that show the customer transition times
+A tibble that show the customer transition times
 }
 \description{
 Feed customers through a multiserver queue system to determine each customer's transition times.
+}
+\examples{
+Multiserver(100,200,3)
 }
