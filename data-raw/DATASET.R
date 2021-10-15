@@ -61,5 +61,6 @@ usethis::use_readme_rmd()
 usethis::git_vaccinate()
 # automate ignoring personal files that you don't want to publish on git
 
+usethis::use_pkgdown()
 pkgdown::build_site()
 # create a website for the package
